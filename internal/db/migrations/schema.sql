@@ -32,3 +32,15 @@ CREATE TABLE activities (
   notes TEXT,
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+
+-- Data annotations
+CREATE TABLE data_annotations (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  data_field TEXT NOT NULL,
+  category TEXT,
+  description TEXT,
+  policy_type TEXT,
+  scope TEXT,
+  annotation_id TEXT UNIQUE,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
