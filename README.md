@@ -1,6 +1,6 @@
 # Workout Scheduler (PoC)
 
-This is a small proof-of-concept workout scheduling app in Go.
+This is a small proof-of-concept workout scheduling app in Go. It is used as a testing repository for data labeling helper tools.
 
 Features
 - Create accounts (`/signup`)
